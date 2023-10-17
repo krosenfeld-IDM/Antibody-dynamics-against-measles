@@ -2,6 +2,8 @@
 
 library(ggeffects)
 library(splines)
+library(ggplot2)
+library(mgcv)
 
 dat<-read.csv("dat_Github_Fig 2.csv")
 
